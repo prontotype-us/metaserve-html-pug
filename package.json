@@ -1,0 +1,25 @@
+{
+    "name": "metaserve-html-pug",
+    "version": "0.0.1",
+    "description": "metaserve plugin for rendering HTML with Pug",
+    "homepage": "http://github.com/prontotype-us/metaserve-html-pug",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/prontotype-us/metaserve-html-pug.git"
+    },
+    "author": {
+        "name": "Sean Robertson",
+        "url": "http://sprobertson.com"
+    },
+    "scripts": {
+        "build": "coffee -o lib -c src"
+    },
+    "main": "lib/index.js",
+    "dependencies": {
+        "pug": "^2.0.3"
+    },
+    "keywords": [
+        "metaserve",
+        "pug"
+    ]
+}
